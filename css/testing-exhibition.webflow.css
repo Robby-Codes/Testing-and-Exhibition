@@ -4497,20 +4497,14 @@
     bottom: 30px;
   }
   .image-wrapper {
-    position: absolute;
+    position: static;
     left: 41px;
     top: -12.15px;
-    width: 100vh;
+    width: 100%;
     height: 100%;
-    -webkit-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
   }
   .num-heading {
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    color: rgba(0, 0, 0, 0.85);
+    color: hsla(0, 0%, 100%, 0.5);
     font-size: 150px;
   }
   .tais-message-1 {
@@ -4573,6 +4567,10 @@
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+  }
+  .body {
+    overflow: hidden;
+    height: 100vh;
   }
   .heading-6 {
     font-size: 80px;
@@ -4671,6 +4669,10 @@
   .rocks {
     width: 1200px;
   }
+  .hero-background {
+    width: 150%;
+    height: 160%;
+  }
   .exhibit-section {
     padding-right: 20px;
     padding-left: 20px;
@@ -4734,8 +4736,8 @@
   .image-wrapper {
     left: -163px;
     top: 162.85px;
-    width: 200%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
   }
   .num-heading {
     font-size: 100px;
